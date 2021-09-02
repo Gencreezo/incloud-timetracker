@@ -1,0 +1,115 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: hsl(220, 13%, 18%);
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.NavigationButton {
+  border: 1px solid white;
+  background-color: hsl(220, 13%, 18%);
+  display: inline-block;
+  cursor: pointer;
+  color: hsl(193, 95%, 68%);
+  font-family: Arial;
+  font-size: 12px;
+  padding: 8px 200px;
+  margin: 2rem 0rem 2rem 0rem;
+  text-decoration: none;
+}
+
+.left {
+  border-radius: 28px 0px 0px 28px;
+}
+
+.right {
+  border-radius: 0px 28px 28px 0px;
+}
+
+.Card {
+  display: flex;
+  flex-direction: column;
+  max-width: 900px;
+  border-radius: 1rem;
+  border-style: solid;
+  margin: 1.5rem 5rem 1.5rem 5rem;
+  transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.Card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.Card-Header {
+  display: flex;
+  flex-direction: row;
+  min-width: 100%;
+}
+
+.Card-Label {
+  margin-right: 2rem;
+}
+
+.Card-Sublabel {
+  display: flex;
+  align-self: flex-end;
+  justify-self: flex-end;
+}
+
+.Input-Label {
+  font-size: 32px;
+  margin-right: 1rem;
+  display: inline;
+  align-content: center;
+  justify-content: center;
+}
+
+.Textfield {
+  font-size: 20px;
+  padding: 20px 200px;
+  border-radius: 28px;
+}
+
+.Submit-Button {
+  background-color: hsl(193, 95%, 68%);
+  border-radius: 28px;
+  border: 1px solid hsl(220, 13%, 18%);
+  cursor: pointer;
+  color: hsl(220, 13%, 18%);
+  font-size: 24px;
+  padding: 16px 31px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #2f6627;
+}
+
+.Submit-Button:hover {
+  background-color: hsl(193, 95%, 38%);
+}
+
+.Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.Control-Btn {
+  border-radius: 50%;
+  padding: 0;
+}
